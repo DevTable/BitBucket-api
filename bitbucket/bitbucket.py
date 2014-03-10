@@ -48,7 +48,6 @@ class Bitbucket(object):
         self.username = username
         self.password = password
         self.repo_slug = repo_name_or_slug
-        self.repo_tree = {}
         self.URLS = URLS
 
         self.repository = Repository(self)
